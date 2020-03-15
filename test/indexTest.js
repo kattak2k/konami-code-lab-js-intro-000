@@ -1,6 +1,5 @@
 const expect = chai.expect;
-  init()
-/*
+
 describe("konami_code.js", () => {
 
   const codes = [
@@ -48,4 +47,3 @@ describe("konami_code.js", () => {
     });
   });
 });
-*/
