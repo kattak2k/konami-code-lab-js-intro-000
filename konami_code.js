@@ -16,7 +16,9 @@ function init() {
 
   // Attaching an keydown event listener to document.body
   document.body.addEventListener("keydown", (event) => {
-    alert("right key pressed");
+    for (let i = 0, l = codes.length; i < l; i++) {
+      triggerKeyDown(codes[i]);
+    };
   });
 };
 
